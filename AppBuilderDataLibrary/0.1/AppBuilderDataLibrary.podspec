@@ -9,5 +9,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = "Classes/**/*.{h,m}"
   s.requires_arc = true
-  s.dependency 'MagicalRecord', 'hpple', 'UrbanAirship-iOS-SDK', 'TouchJSON', 'ASIHTTPRequest', 'TBXML'
+  s.dependency 'MagicalRecord' 
+  s.dependency 'hpple'
+  s.dependency 'UrbanAirship-iOS-SDK'
+  s.dependency 'TouchJSON'
+  s.dependency 'ASIHTTPRequest'
+  s.dependency 'TBXML'
 end

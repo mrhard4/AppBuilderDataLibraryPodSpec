@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'MagicalRecord' 
   s.dependency 'hpple'
-  s.dependency 'UrbanAirship-iOS-SDK'
+  s.dependency 'UrbanAirship-iOS-SDK', '~>2.1.0'
   s.dependency 'TouchJSON'
   s.dependency 'ASIHTTPRequest'
   s.dependency 'TBXML'
+  s.prefix_header_contents = "#import "AppBuilder.h""
 end

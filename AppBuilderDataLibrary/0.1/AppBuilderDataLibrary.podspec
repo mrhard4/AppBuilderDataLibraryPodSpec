@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.dependency 'TouchJSON'
   s.dependency 'ASIHTTPRequest'
   s.dependency 'TBXML'
+  s.dependency 'MMMarkdown'
   s.prefix_header_contents = "#import "AppBuilder.h""
 end

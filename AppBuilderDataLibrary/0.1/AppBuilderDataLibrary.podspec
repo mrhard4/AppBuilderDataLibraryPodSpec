@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = "Classes/**/*.{h,m}"
   s.requires_arc = true
-  s.resources    = 'Classes/Data/Persistance/AppBuilderDataLibrary.bundle'
+  s.resources    = 'Classes/Data/Persistance/AppBuilder.xcdatamodeld'
   s.dependency 'MagicalRecord' 
   s.dependency 'hpple'
   s.dependency 'UrbanAirship-iOS-SDK', '~>2.1.0'

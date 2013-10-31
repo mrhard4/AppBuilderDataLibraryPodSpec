@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.dependency 'ASIHTTPRequest'
   s.dependency 'TBXML'
   s.dependency 'MMMarkdown'
+  s.dependency 'FlurrySDK'
   s.prefix_header_contents = '#import "AppBuilder.h"'
 end

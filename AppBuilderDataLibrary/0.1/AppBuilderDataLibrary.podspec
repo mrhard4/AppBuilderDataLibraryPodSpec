@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.dependency 'MagicalRecord' 
   s.dependency 'hpple'
   s.dependency 'UrbanAirship-iOS-SDK', '~>2.1.0'
+  s.dependency 'AFNetworking', '~>1.3.2'
   s.dependency 'TouchJSON'
   s.dependency 'ASIHTTPRequest'
   s.dependency 'TBXML'

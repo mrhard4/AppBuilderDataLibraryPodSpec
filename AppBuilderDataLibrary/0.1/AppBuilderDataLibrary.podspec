@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.dependency 'UrbanAirship-iOS-SDK', '~>2.1.0'
   s.dependency 'AFNetworking', '~>1.3.2'
   s.dependency 'TouchJSON'
-  s.dependency 'ASIHTTPRequest'
   s.dependency 'TBXML'
   s.dependency 'MMMarkdown'
   s.dependency 'FlurrySDK'

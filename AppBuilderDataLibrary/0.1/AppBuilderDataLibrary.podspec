@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~>1.3.2'
   s.dependency 'TouchJSON'
   s.dependency 'TBXML'
+  s.frameworks = 'QuartzCore','ImageIO','CoreText','MediaPlayer','CoreMotion','AVFoundation'
   s.dependency 'MMMarkdown'
   s.dependency 'FlurrySDK'
   s.prefix_header_contents = '#import "AppBuilder.h"'

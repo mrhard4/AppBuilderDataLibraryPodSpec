@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source_files = "Classes/**/*.{h,m}"
   s.requires_arc = true
   s.resources    = 'Classes/Data/Persistance/AppBuilder.xcdatamodeld'
-  s.dependency 'MagicalRecord' 
+  s.dependency 'MagicalRecord/Shorthand' 
   s.dependency 'hpple'
   s.dependency 'UrbanAirship-iOS-SDK', '~>2.1.0'
   s.dependency 'AFNetworking', '~>1.3.2'

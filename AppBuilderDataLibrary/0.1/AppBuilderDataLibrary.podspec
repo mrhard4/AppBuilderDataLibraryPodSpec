@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~>1.3.2'
   s.dependency 'TouchJSON'
   s.dependency 'TBXML'
+  s.dependency 'Mapbox-iOS-SDK'
   s.dependency 'SVProgressHUD'
   s.dependency 'TestFlightSDK'
   s.frameworks = 'QuartzCore','ImageIO','CoreText','MediaPlayer','CoreMotion','AVFoundation'

@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'QuartzCore','ImageIO','CoreText','MediaPlayer','CoreMotion','AVFoundation'
   s.dependency 'MMMarkdown'
   s.dependency 'FlurrySDK'
+  s.dependency 'FXBlurView'
   s.prefix_header_contents = '#import "AppBuilder.h"'
 end
